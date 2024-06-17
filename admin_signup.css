@@ -1,0 +1,119 @@
+/* user_login.css */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-3xl {
+    font-size: 1.875rem; /* 30px */
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.mb-8 {
+    margin-bottom: 2rem; /* 32px */
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-opacity-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.p-8 {
+    padding: 2rem; /* 32px */
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; /* 8px */
+}
+
+.shadow-lg {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.max-w-md {
+    max-width: 28rem; /* 448px */
+}
+
+.w-full {
+    width: 100%;
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem; /* 16px */
+}
+
+.p-3 {
+    padding: 0.75rem; /* 12px */
+}
+
+.border {
+    border-width: 1px;
+}
+
+.border-zinc-300 {
+    border-color: #718096;
+}
+
+.focus\:outline-none:focus {
+    outline: none;
+}
+
+.focus\:ring-2:focus {
+    box-shadow: 0 0 0 2px #4F46E5;
+}
+
+.bg-red-600 {
+    background-color: #DC2626;
+}
+
+.hover\:bg-red-700:hover {
+    background-color: #C53030;
+}
+
+/* Add custom style for the link */
+.text-black {
+    color: #000000;
+}
+
+.text-black:hover {
+    color: #4F46E5; /* Change color on hover if desired */
+}
+
+/* Additional styles for the login button */
+.block {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
