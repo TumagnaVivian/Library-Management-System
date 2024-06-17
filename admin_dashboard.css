@@ -1,0 +1,54 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full height for the container */
+html, body {
+    height: 100%;
+}
+
+/* Background styling */
+.relative {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Positioning for the buttons */
+.absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Flex styling for buttons */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Space between buttons */
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    margin-left: 1rem;
+}
+
+/* Button styling */
+.button {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Added to change cursor on hover */
+}

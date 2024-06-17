@@ -1,0 +1,57 @@
+/* General resets and font settings */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    min-height: 100%;
+}
+
+/* Container settings */
+.container {
+    min-height: 100vh;
+    background-image: url('img/library.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search bar settings */
+.search-bar {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-bar:focus {
+    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.5); /* Focus ring color */
+}
+
+/* Navigation links container */
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Navigation button settings */
+.nav-button {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #f5f5f5; /* Hover color */
+}

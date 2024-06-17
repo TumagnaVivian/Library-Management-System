@@ -1,0 +1,124 @@
+/* styles.css */
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-center {
+    background-position: center;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-opacity-80 {
+    opacity: 0.8;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-md {
+    max-width: 28rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.border-zinc-300 {
+    border-color: #E5E7EB;
+}
+
+.focus\:outline-none:focus {
+    outline: none;
+}
+
+.focus\:ring-2:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.focus\:ring-indigo-500:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.hover\:bg-indigo-600:hover {
+    background-color: #4F46E5;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-indigo-500 {
+    background-color: #6366F1;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.hover\:bg-indigo-600:hover {
+    background-color: #4F46E5;
+}
+
+.focus\:ring-2:focus {
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
+
+.focus\:ring-indigo-500:focus {
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
